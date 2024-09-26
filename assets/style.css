@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: end;
+}
+
+header{
+    width: 100%;
+    font-family: Poppins, sans-serif;
+}
+
+.container-menu{
+    display: flex;
+    background-color: #3c140c;
+    height: 100px;
+    border-bottom: 2px solid white;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.menu-categoria{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    height: 40px;
+    justify-content: space-around;
+}
+
+.menu-categoria a{
+    height: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.menu-categoria a:hover{
+    text-decoration: underline;
+    color:#d3ad7f;
+    font-size: 16px;
+}
+
+.menu-categoria ul{
+    width: 100%;
+}
+
+
+.logo{
+    display:flex;
+    position: relative;
+    height: 80px;
+    width: 90px;
+    margin-left: 36px;
+    margin-top: 10px;
+ 
+}
+
+.container-banner{
+    background: url(imagens/banner.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.chamada-acao-geral{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 460px;
+}
+
+ .chamada-pra-acao{
+    display: flex;
+    width: 39%;
+    font-size: 46px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+    align-items: end;
+    margin: auto 23%;
+ }
+
+.expresso-xicara{
+    display: flex;
+    height: 310px;
+    transform:rotate(25deg);
+    margin-left: 15px;
+    margin-top: 90px;
+}
+
+.destaques{
+    display: flex;
+    background-color: #3c140c;
+    height: 360px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo-destaque{
+    background-color: #3c140c;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.cappuccino{
+    display: flex;
+    height: 190px;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+.cappuccino:hover{
+    scale: 1.1;
+    transition: 0.2s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.178);
+}
+
+.cappuccino p{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.cappuccino img{
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+}
+
+.frappuccino{
+    display: flex;
+    height: 190px;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+.frappuccino:hover{
+    scale: 1.1;
+    transition: 0.2s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.178);
+}
+
+.frappuccino p{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.frappuccino img{
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+}
+
+.macchiato{
+    display: flex;
+    height: 190px;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+.macchiato:hover{
+    scale: 1.1;
+    transition: 0.2s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.178);
+}
+
+.macchiato p{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.macchiato img{
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+}
+
+.mocha-latte{
+    display: flex;
+    height: 190px;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+.mocha-latte:hover{
+    scale: 1.1;
+    transition: 0.2s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.178);
+}
+
+.mocha-latte p{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.mocha-latte img{
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+}
+
+.expresso{
+    display: flex;
+    height: 190px;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+.expresso:hover{
+    scale: 1.1;
+    transition: 0.2s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.178);
+}
+
+.expresso p{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.expresso img{
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+}
+
+.cardapio{
+    margin-top: 50px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: poppins, sans-serif;
+    color: #3c140c;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.cardapio h2{
+    text-align: center;
+    margin-bottom: 50px;
+    height: 20px;
+}
+
+.preco{
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+    color: #700606;
+}
+
+.container-cardapio{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+hr{
+    background-color: #3c140c;
+    height: 2px;
+    margin-right: 15px;
+}
+
+.ingredientes{
+    color: #770d0d;
+}
+
+
+
+.container-forms {
+    display: flex;
+    height: 100vh;
+    background-color: #3c140c;
+    padding-bottom: 70px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.form-section {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c140c;
+}
+
+.reserva-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 40%;
+    width: 100%;
+    
+}
+
+.reserva-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #770d0d;
+}
+
+.reserva-form input,
+.reserva-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #700606;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.reserva-form textarea {
+    resize: none;
+}
+
+.reserva-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #700606;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reserva-form button:hover {
+    background-color: #830101;
+
+}
+
+.imagem-form {
+    width: 40%;
+    align-items: center;
+    background-image: url(imagens/xicara-coracao.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.titulo-reserva{
+    text-align: center;
+    padding-bottom: 52px;
+    padding-top: 15px;
+    background-color: #3c140c;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    border: none;
+}
+
+.section-horario{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.horario-atendimento{
+    justify-content:center;
+    font-size: 22px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.horario-atendimento h2{
+    font-size: 23px;
+    margin-bottom: 26px;
+    color: #3c140c;
+}
+
+
+.dias-semana{
+    color: #830101;
+}
+
+.simbolo-marcacao{
+    color: black;
+}
+
+footer{
+    display: flex;
+    height: 40%;
+    background-color:#3c140c;
+    color: white;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.endereco{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+
+}
+
+.redes-sociais a{
+    color: white;
+}
