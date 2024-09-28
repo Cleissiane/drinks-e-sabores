@@ -111,7 +111,6 @@ header{
     color: white;
     text-align: center;
     padding-top: 50px;
-
 }
 
 .cappuccino{
@@ -364,7 +363,6 @@ hr{
     background-color: #3c140c;
     color: white;
     border-radius: 20px 20px 0px 0px;
-    border: none;
 }
 
 .section-horario{
@@ -375,7 +373,7 @@ hr{
     justify-content: center;
 }
 
-.horario-atendimento{
+.horario-funcionamento{
     justify-content:center;
     font-size: 22px;
     font-family: Poppins, sans-serif;
@@ -383,7 +381,7 @@ hr{
     line-height: 35px;
 }
 
-.horario-atendimento h2{
+.horario-funcionamento h2{
     font-size: 23px;
     margin-bottom: 26px;
     color: #3c140c;
@@ -419,9 +417,136 @@ footer{
     display: flex;
     gap: 20px;
     font-size: 25px;
-
 }
 
 .redes-sociais a{
     color: white;
 }
+
+@media screen and (max-width:768px) {
+    .container-menu{
+        display: block;
+        height: 45vh;
+        position: relative;
+    }
+
+    .menu-categoria{
+        flex-direction: column;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+    .logo{
+        margin: auto;
+        height: 100px;
+        width: 110px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .container-banner{
+        display: none;
+    }
+
+    .chamada-pra-acao{
+        font-size: 18px;height: auto;
+        width: 90%;
+        margin-left: 10px;
+        font-weight: 400;
+    }
+
+    .expresso-xicara{
+        height: 90px;
+        margin-top: 30%;
+    }
+
+    .chamada-acao-geral{
+        width: 100%;
+        height: 300px;
+    }
+
+    .destaques{
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        box-shadow: none;
+    }
+
+    .titulo-destaque{
+        padding-bottom: 50px;
+    }
+
+    .container-forms {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .imagem-form{
+        display: none;
+    }
+
+    .form-section {
+        width: 100%;
+    }
+    
+    .reserva-form {
+        max-width: 100%;
+        border-radius: 0px;
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+
+    .titulo-reserva{
+        padding-bottom: 20px;
+    }
+
+    .horario-funcionamento{
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 8px;
+    }
+
+    .horario-funcionamento h2{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .section-horario{
+        height: 280px;
+    }
+
+    .endereco{
+        font-size: 14px;
+    }
+
+    .redes-sociais{
+        display: flex;
+        font-size: 20px;
+        padding: 8px;
+        margin-left: 6px;
+    }
+
+    .cappuccino:hover{
+        box-shadow: none;
+    }
+
+    .frappuccino:hover{
+        box-shadow: none;
+    }
+
+    .macchiato:hover{
+        box-shadow: none;
+    }
+
+    .mocha-latte:hover{
+        box-shadow: none;
+    }
+
+    .expresso:hover{
+        box-shadow: none;
+    }
+}
+
